@@ -147,9 +147,9 @@ html , body {
     
 }
 
-@media (min-width:360px) and (max-width: 800px){
+@media (max-width:500px){
     #main{
-        flex-direction: row;
+        flex-direction: column;
     }
     #left{
         width: 100%;
