@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    width: 100%;
+    height: 100%;
+  display: grid;
+  grid-template-areas:
+  
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #4e46463f;
+  padding: 10px;
+  background-image: url(https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-container > div {
+  background-color: rgba(46, 36, 36, 0.3);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 25px;
+  position: relative;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: rgb(14, 12, 12);
+}
+
+.item1 > h2 {
+    color: #ffffff;
+    font-family: 'Gilroy-Regular', sans-serif;
+    
+    
+    
+}
+
+
+
+  
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1" style="font-size: 20px; color: #ffffff9c;"><h2>HTML</h2>
+    HTML stands for Hyper Text Markup Language
+    HTML is the standard markup language for creating Web pages
+    HTML describes the structure of a Web page
+    HTML consists of a series of elements
+    HTML elements tell the browser how to display the content
+    HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</div>
+  <div class="item2" style="font-size: 20px; color: #ffffff9c;"   ><h2 style="color: #ffffff;">CSS</h2>
+    CSS stands for Cascading Style Sheets
+    CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+    CSS saves a lot of work. It can control the layout of multiple web pages all at once
+    External stylesheets are stored in CSS file</div>
+  <div class="item3"  style="font-size: 20px; color: #ffffff9c;"><h2 style="color: #ffffff;">JavaScript</h2>
+    One of many JavaScript HTML methods is getElementById().
+    
+    The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript"</div>  
+  <div class="item4"  style="font-size: 20px; color: #ffffff9c;"><h2 style="color: #ffffff;">Python</h2>
+    Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+    
+    It is used for:
+    
+    web development (server-side),
+    software development,
+    mathematics,
+    system scripting</div>
+  <div class="item5"> <h1 style="color: #ffffff;">WEB DEVELOPER</h1></div>
+</div>
+
+</body>
+</html>

@@ -147,18 +147,18 @@ html , body {
     
 }
 
-@media (max-width:500px){
-    #main{
-        flex-direction: column;
+@media (max-width: 500px) {
+    .main {
+      flex-direction: column;
     }
-    #left{
-        width: 100%;
-        
+  
+    #left {
+      order: 1; /* Reorder the left column */
+      width: 100%;
     }
-
-    #right{
-        width: 100%;
-
+  
+    #right {
+      order: 2; /* Reorder the right column */
+      width: 100%;
     }
-
-}
+  }
